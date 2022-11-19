@@ -23,7 +23,7 @@
                         <div class="services-menu">
                             <ul>
                                 <li><a>Movers</a></li>
-                                <li><a>Drivers</a></li>
+                                <li><a >Drivers</a></li>
                                 <li><a>Mechanics</a></li>
                             </ul>
 
@@ -58,6 +58,52 @@
                 
                 <button>Dial a Mechanic</button>
             </div>
+        </section>
+        <section class="register">
+            <div class="regform"> <h1> Registration Form</h1></div>
+            <div class="get-service">
+                <form>
+                    <div id="name"> 
+                        <h2 class="name">Name</h2>
+                        <input class="firstname" type="text" name="first-name"><br>
+                        <label class="firstlabel">First Name</label>
+                        <input class="lastname" type="text" name="first-name"><br>
+                        <label class="lastlabel">Last Name</label>
+                    </div>
+                        <h2 class="name">Company</h2>
+                        <input class="company" type="text" name="company">
+
+                        <h2 class="name">E-mail</h2>
+                        <input class="email" type="text" name="email">
+
+                        <h2 class="name">Phone</h2>
+                        <input class="code" type="text" name="area-code"><br>
+                        <label class="area-code"> Country Code</label>
+                        <input class="number" type="text" name="phone"><br>
+                        <label class="phone-number">Phone Number</label>
+
+                        <h2 class="name">Service</h2>
+                        <select class="option" name="service">
+                            <option disabled="disabled" selected="selected">Choose a Service</option>
+                            <option> Moving Services</option>
+                            <option>Driver Services</option>
+                            <option>Mechanic Services</option>
+                        </select>
+                        <h2 class="customer">Payment Option</h2>
+                        <label class="radio">
+                        <input class="mpesa" type="radio"  name="mpesa">
+                        <span class="payment2">M-pesa</span>
+                        <!-- </label> -->
+                        <!-- <label class="radio"> -->
+                            <input class="cash" type="radio"  name="cash">
+                            <span class="payment2">Cash</span>
+                            </label>
+                        <button type="submit">Submit</button>
+
+                </form>
+            </div>
+
+            
         </section>
 
     </main>
